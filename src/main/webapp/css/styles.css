@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+h1,h2,h3,h4,h6{
+    font-family: 'Varela Round', sans-serif;
+    color: #61C9A8;
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 50px;
+}
+main{
+    width:400px;
+    margin:auto;
+}
+.submit-btn{
+    color:white;
+    background:#61C9A8;
+    padding:10px 20px;
+    border-radius: 6px;
+    border:none;
+    width:100%;
+}
+.submit-btn:hover{
+    background:#83d8bd;
+}
+.form-group{
+    margin-bottom: 10px;
+    margin-top: 8px;
+    width: 90%;
+}
+.form-group input{
+    border:1px solid #61C9A8;
+    border-radius: 6px;
+    padding: 4px 8px;
+    width: 100%;
+}
+
+.form-group input:focus{
+    outline: none;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+footer{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+
+th{
+    font-weight: 600;
+}
+
+.striped-table th{
+    background:#61C9A8;
+    color: #fff;
+    padding: 6px;
+}
+
+.striped-table td{
+    padding: 6px;
+}
