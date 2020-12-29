@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.RequestHistoryDAOTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.087 s <<< FAILURE! - in com.ex.ers.tests.RequestHistoryDAOTests
+shouldUpdateHistory(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.006 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldUpdateHistory(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.006 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+
+shouldDelete(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.016 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldDelete(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.016 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+
+shouldGetByDescription(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.016 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldGetByDescription(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+
+shouldGetByID(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldGetByID(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+
+shouldGetAllHistoryByRequest(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.014 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldGetAllHistoryByRequest(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+
+shouldCreateHistory(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.setup(RequestHistoryDAOTests.java:22)
+
+shouldCreateHistory(com.ex.ers.tests.RequestHistoryDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestHistoryDAOTests.tearDown(RequestHistoryDAOTests.java:45)
+

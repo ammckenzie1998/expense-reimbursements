@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.RoleDAOTests
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.111 s <<< FAILURE! - in com.ex.ers.tests.RoleDAOTests
+shouldAddNewRole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.007 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.shouldAddNewRole(RoleDAOTests.java:53)
+
+shouldAddNewRole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.007 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.tearDown(RoleDAOTests.java:35)
+
+deleteARole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.053 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.deleteARole(RoleDAOTests.java:74)
+
+deleteARole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.053 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.tearDown(RoleDAOTests.java:35)
+
+shouldGetAllRoles(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.01 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.shouldGetAllRoles(RoleDAOTests.java:59)
+
+shouldGetAllRoles(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.01 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.tearDown(RoleDAOTests.java:35)
+
+getRoleByName(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.026 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.getRoleByName(RoleDAOTests.java:81)
+
+getRoleByName(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.026 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.tearDown(RoleDAOTests.java:35)
+
+shouldEditARole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.shouldEditARole(RoleDAOTests.java:66)
+
+shouldEditARole(com.ex.ers.tests.RoleDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RoleDAOTests.tearDown(RoleDAOTests.java:35)
+

@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.RequestItemDAOTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 0.122 s <<< FAILURE! - in com.ex.ers.tests.RequestItemDAOTests
+shouldGetByDescription(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldGetByDescription(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+
+shouldGetByRequest(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.031 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldGetByRequest(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.031 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+
+shouldCreateARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.025 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldCreateARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.025 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+
+shouldGetByID(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldGetByID(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+
+shouldDeleteARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldDeleteARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+
+shouldUpdateARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.013 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.setup(RequestItemDAOTests.java:22)
+
+shouldUpdateARequestItem(com.ex.ers.tests.RequestItemDAOTests)  Time elapsed: 0.013 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.RequestItemDAOTests.tearDown(RequestItemDAOTests.java:49)
+

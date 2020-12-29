@@ -1,0 +1,8 @@
+com\ex\ers\tests\RequestItemDAOTests.class
+com\ex\ers\tests\LogoutServletTests.class
+com\ex\ers\tests\ReimbursementRequestDAOTests.class
+com\ex\ers\tests\LoginServletTests.class
+com\ex\ers\tests\PasswordHashingTest.class
+com\ex\ers\tests\UserDAOTests.class
+com\ex\ers\tests\RequestHistoryDAOTests.class
+com\ex\ers\tests\RoleDAOTests.class

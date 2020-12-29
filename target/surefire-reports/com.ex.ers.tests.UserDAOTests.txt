@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.UserDAOTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.034 s <<< FAILURE! - in com.ex.ers.tests.UserDAOTests
+shouldGetUserById(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+
+shouldUpdateUser(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+
+shouldGetUserByEmail(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+
+shouldAddUser(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+
+getAllUsers(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+
+shouldDeleteUser(com.ex.ers.tests.UserDAOTests)  Time elapsed: 0 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.UserDAOTests.<init>(UserDAOTests.java:20)
+

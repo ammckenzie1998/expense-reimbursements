@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.ReimbursementRequestDAOTests
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 10, Skipped: 0, Time elapsed: 0.081 s <<< FAILURE! - in com.ex.ers.tests.ReimbursementRequestDAOTests
+shouldGetAllRequests(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.setUp(ReimbursementRequestDAOTests.java:22)
+
+shouldGetAllRequests(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.tearDown(ReimbursementRequestDAOTests.java:47)
+
+shouldCreateAReimbursementRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.setUp(ReimbursementRequestDAOTests.java:22)
+
+shouldCreateAReimbursementRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.017 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.tearDown(ReimbursementRequestDAOTests.java:47)
+
+shouldDeleteRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.setUp(ReimbursementRequestDAOTests.java:22)
+
+shouldDeleteRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.015 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.tearDown(ReimbursementRequestDAOTests.java:47)
+
+shouldEditAReimbursementRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.013 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.setUp(ReimbursementRequestDAOTests.java:22)
+
+shouldEditAReimbursementRequest(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.013 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.tearDown(ReimbursementRequestDAOTests.java:47)
+
+shouldGetAllByStatus(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.setUp(ReimbursementRequestDAOTests.java:22)
+
+shouldGetAllByStatus(com.ex.ers.tests.ReimbursementRequestDAOTests)  Time elapsed: 0.018 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.ReimbursementRequestDAOTests.tearDown(ReimbursementRequestDAOTests.java:47)
+

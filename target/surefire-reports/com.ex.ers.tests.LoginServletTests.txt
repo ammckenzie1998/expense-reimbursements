@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.ex.ers.tests.LoginServletTests
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 1.072 s <<< FAILURE! - in com.ex.ers.tests.LoginServletTests
+shouldTestPostAndRedirectToEmployeeHome(com.ex.ers.tests.LoginServletTests)  Time elapsed: 1.012 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.LoginServletTests.shouldTestPostAndRedirectToEmployeeHome(LoginServletTests.java:78)
+
+shouldTestPostAndRedirectToManagerHome(com.ex.ers.tests.LoginServletTests)  Time elapsed: 0.01 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.LoginServletTests.shouldTestPostAndRedirectToManagerHome(LoginServletTests.java:64)
+
+shouldTestPostAndRedirectToLogin(com.ex.ers.tests.LoginServletTests)  Time elapsed: 0.012 s  <<< ERROR!
+org.hibernate.HibernateException: Unable to make JDBC Connection []
+	at com.ex.ers.tests.LoginServletTests.shouldTestPostAndRedirectToLogin(LoginServletTests.java:92)
+
